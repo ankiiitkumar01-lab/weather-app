@@ -1,0 +1,63 @@
+.SearchBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.SearchBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-left: 60px;
+}
+
+.SearchBtn {
+  height: 56px !important;
+  min-width: 60px !important;
+}
+.locationBtn {
+  height: 56px;
+  padding: 0 18px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #1976d2;
+  color: white;
+
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+
+  transition: 0.3s;
+
+  margin: auto;
+}
+
+.locationBtn:hover {
+  background-color: #1258a7;
+}
+
+.errorMsg {
+  width: 100%;
+  text-align: center;
+  color: red;
+  margin-top: -2px;
+}
+.MuiOutlinedInput-root {
+  background-color: white !important;
+  border-radius: 8px;
+}
+
+.MuiOutlinedInput-root fieldset {
+  border-color: #ccc;
+}
+
+.MuiOutlinedInput-root:hover fieldset {
+  border-color: #1976d2;
+}
+
+.MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #1976d2;
+}

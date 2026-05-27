@@ -1,0 +1,32 @@
+.card {
+  width: 90%;
+  max-width: 450px;
+  min-height: 500px;
+
+  margin: 30px auto;
+  padding: 25px;
+
+  border-radius: 18px;
+
+  background: linear-gradient(to bottom, #d9a7ff, #6a0dad);
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .card {
+    width: 95%;
+    min-height: 420px;
+    padding: 18px;
+  }
+
+  .weatherCard {
+    width: 100%;
+  }
+}
