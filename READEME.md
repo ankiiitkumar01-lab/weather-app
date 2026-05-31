@@ -1,35 +1,84 @@
-# Weather App 🌦️
+# 🌤️ Weather App
 
-A modern weather application built using React that provides real-time weather information with a clean and responsive UI.
+A modern React-based Weather Application that allows users to search weather conditions of any city and also fetch weather based on their current location using Geolocation API.
 
 ---
 
 ## 🚀 Features
-- Search weather by city name
-- Real-time weather data
-- Temperature, humidity, and condition display
-- Responsive and clean UI
-- Fast and interactive experience
+
+- 🔍 Search weather by city name
+- 📍 Get weather using current location
+- 🌡️ Real-time temperature updates
+- 🌥️ Displays weather conditions (Cloudy, Sunny, Rainy, etc.)
+- 💨 Shows humidity and wind speed
+- ⚡ Fast and responsive UI
+- 🌎 Uses live weather API
 
 ---
 
 ## 🛠️ Tech Stack
+
 - React.js
-- JavaScript
+- JavaScript (ES6+)
 - CSS
-- OpenWeather API
+- OpenWeather API (or any weather API you used)
+- Geolocation API
 
 ---
 
-## 📸 UI Preview
-(Add screenshot here)
+## 📂 Project Structure
+
+```text
+WEATHER-APP/
+│
+├── src/
+│   ├── components/
+│   │   ├── Weather.jsx
+│   │   ├── Search.jsx
+│   │   └── Location.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles.css
+│
+├── public/
+├── package.json
+└── README.md
+```
+
+---
+## 🚀 Live Demo
+
+🔗 https://weather-app-seven-flax-68.vercel.app/
+
+## 📸 Screenshots
+
+### Weather UI
+
+![Weather App](./screenshots/weather-app.png)
 
 ---
 
-## 🌐 Live Demo
-(Will be added after deployment)
+## ⚙️ How It Works
+
+- User enters city name OR allows location access
+- App fetches data from weather API
+- React state updates UI instantly
+- Geolocation API gets latitude & longitude for current weather
 
 ---
 
-## 📌 Note
-This project focuses on React fundamentals, API handling, and UI design.
+## 🚀 Future Improvements
+
+- 7-day weather forecast
+- Hourly weather updates
+- Dark/Light mode toggle
+- Save favorite cities
+- Weather animations
+
+---
+
+## 👨‍💻 Author
+
+Ankit Kumar  
+GitHub: https://github.com/ankiiitkumar01-lab
